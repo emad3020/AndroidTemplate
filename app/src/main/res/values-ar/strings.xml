@@ -2,4 +2,8 @@
 <resources>
     <string name="app_name">السوري</string>
 <string name="store_address">بوابة الملعب الخماسي-مدينة طوخ-القليوبية</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة السر</string>
+    <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_link_to_register">ليس لديك حساب! سجل الآن</string>
 </resources>
