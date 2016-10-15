@@ -5,5 +5,7 @@
     <string name="email_hint">البريد الإلكتروني</string>
     <string name="password_hint">كلمة السر</string>
     <string name="btn_login">تسجيل الدخول</string>
+    <string name="btn_register">إنشاء حساب</string>
     <string name="btn_link_to_register">ليس لديك حساب! سجل الآن</string>
+    <string name="btn_link_to_login">لديك حساب بالفعل! قم بالدخول الآن</string>
 </resources>

@@ -4,6 +4,8 @@
     <string name="email_hint">Email</string>
     <string name="password_hint">Password</string>
     <string name="btn_login">Login</string>
+    <string name="btn_register">Sign up</string>
     <string name="btn_link_to_register">Do not Have account! sign up now</string>
+    <string name="btn_link_to_login">Already member! Login</string>
     <string name="btn_menu">Menu</string>
 </resources>

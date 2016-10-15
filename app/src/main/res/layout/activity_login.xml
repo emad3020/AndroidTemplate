@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
    android:fitsSystemWindows="true"
+    android:background="@drawable/elsory_ui_background"
     tools:context="com.askerlap.emad.elsory.UI.LoginActivity">
 <LinearLayout
-    android:background="@drawable/ui_background"
     android:layout_width="match_parent"
     android:gravity="center"
     android:orientation="vertical"

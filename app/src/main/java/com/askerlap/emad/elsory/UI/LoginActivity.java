@@ -10,7 +10,7 @@ import com.askerlap.emad.elsory.Activites.MainActivity;
 import com.askerlap.emad.elsory.R;
 
 public class LoginActivity extends AppCompatActivity {
-    Button login;
+    Button login,register;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +18,14 @@ public class LoginActivity extends AppCompatActivity {
         assert getSupportActionBar() !=null;
         getSupportActionBar().hide();
         login=(Button)findViewById(R.id.btn_account_login);
+        register=(Button)findViewById(R.id.login_btn_signup);
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(LoginActivity.this,Registeration.class);
+                startActivity(intent);
+            }
+        });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

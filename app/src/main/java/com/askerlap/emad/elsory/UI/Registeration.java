@@ -11,5 +11,7 @@ public class Registeration extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registeration);
+        assert getSupportActionBar() !=null;
+        getSupportActionBar().hide();
     }
 }
